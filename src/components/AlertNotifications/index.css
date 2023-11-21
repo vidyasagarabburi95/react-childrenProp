@@ -1,0 +1,42 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+.icon {
+  height: 70px;
+  min-width: 40px;
+  margin-right: 14px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    margin-top: 0px;
+  }
+}
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.suucees {
+  color: #2dca73;
+}
+.error {
+  color: red;
+}
+.info {
+  color: #0f81e0;
+}
+.warning {
+  color: #ffb800;
+}
